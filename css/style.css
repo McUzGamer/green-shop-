@@ -120,6 +120,88 @@ Thea
   font-size: 16px;
 }
 /* =========================== */
+.make {
+  margin-top: 5px;
+  margin-bottom: 45px;
+}
+.make-ul {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    134.56deg,
+    rgba(245, 245, 245, 0.5) -23.457%,
+    rgba(245, 245, 245, 0.5) 107.508%
+  );
+}
+.make-ul .wel {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+  padding-top: 68px;
+  padding-bottom: 7px;
+}
+.better {
+  padding-left: 43px;
+}
+.better h1 {
+  font-size: 70px;
+  font-weight: 900;
+  display: flex;
+  color: rgb(23, 23, 23);
+}
+.better-div {
+  gap: 10px;
+}
+.better-div p {
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(23, 23, 23);
+}
+.better-div .pla {
+  color: rgb(70, 163, 88);
+}
+.are-p {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+  padding-bottom: 44px;
+}
+.shop-button {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  background: rgb(70, 163, 88);
+  padding: 10px 25px;
+  border: 1px solid rgb(70, 163, 88);
+  margin-bottom: 85px;
+}
+.shop-button:hover {
+  color: rgb(70, 163, 88);
+  background: linear-gradient(
+    134.56deg,
+    rgba(245, 245, 245, 0.5) -23.457%,
+    rgba(245, 245, 245, 0.5) 107.508%
+  );
+  border: 1px solid rgb(70, 163, 88);
+  transition: 0.5s;
+}
+
+.make-img .katta {
+  width: 418px;
+  height: 518px;
+  padding-left: 200px;
+}
+.make-img .kichik {
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  left: 768px;
+  top: 435px;
+}
+/* =========================== */
 .shop-pad {
   padding-left: 50px;
 }
@@ -199,6 +281,7 @@ Thea
 .bg-image {
   width: 310px;
   height: 470px;
+  position: relative;
   background-image: url("/img/image/bg.png");
 }
 .bg-image .images-top {
@@ -214,9 +297,9 @@ Thea
 }
 .bg-image .images-botton {
   position: absolute;
-  width: 270px;
-  height: 270px;
-  padding-top: 4px;
+  left: -30px;
+  width: 370px;
+  height: 370px;
 }
 /* -------------------------------------- */
 .shop-call a {
@@ -232,15 +315,209 @@ Thea
   transition: 0.4s ease-in-out;
 }
 /* ======================================= */
-.angel{
-  width: 258px;
+.angel {
+  width: 250px;
   height: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+.angel-img {
+  position: absolute;
+  width: 230px;
+  height: 280px;
   background-color: rgb(251, 251, 251);
 }
-.angel-li img{
-  width: 250px;
+.angel-img img {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  width: 230px;
   height: 250px;
 }
+.angel-text p {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(61, 61, 61);
+  bottom: -3%;
+}
+.angel-text h6 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(70, 163, 88);
+  bottom: -10%;
+}
+.angel-icon-li {
+  position: absolute;
+  left: 60px;
+  bottom: 7px;
+  gap: 10px;
+  opacity: 0;
+}
+.angel-icon-li svg {
+  background: rgb(255, 255, 255);
+  color: rgb(61, 61, 61);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  transition: 0.6 ease-in-out;
+}
+.angel-img:hover {
+  border-top: 1.5px solid rgb(70, 163, 88);
+}
+.angel:hover .angel-icon-li {
+  transition: 0.6 ease-in-out;
+  opacity: 1;
+}
+.angel-icon-li svg:hover {
+  color: rgb(70, 163, 88);
+}
+/* ----- */
+.angel-text .dollor h6 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(70, 163, 88);
+  bottom: -10%;
+}
+.angel-text .dollor h5 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(165, 165, 165);
+  left: 29%;
+  bottom: -10%;
+}
+.corner {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 80px;
+  height: 29px;
+  background: rgb(70, 163, 88);
+}
+.corner p {
+  padding: 5px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.pad-20 {
+  margin-top: 64px;
+}
+/* =============================================== */
+.cursor-one {
+  position: relative;
+  padding-top: 90px;
+}
+.cursor-five {
+  position: absolute;
+  right: 100px;
+  gap: 6px;
+}
+.cursor-one .cursor-five li {
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 6px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+.cursor-five li svg {
+  padding-top: 2px;
+}
+.cursor-five a {
+  color: rgb(61, 61, 61);
+}
+.cursor-five li:hover {
+  background-color: rgb(70, 163, 88);
+}
+.cursor-five li:hover a {
+  color: rgb(251, 251, 251);
+}
+
+/* =================================== */
+.fidex {
+  padding-top: 120px;
+}
+.fidex .justen {
+  gap: 20px;
+  position: relative;
+  justify-content: center;
+}
+.fidex .bg-img {
+  position: relative;
+  width: 555px;
+  height: 250px;
+  background-color: rgb(251, 251, 251);
+}
+.bg-img .fidex-img img {
+  position: absolute;
+  width: 292px;
+  height: 300px;
+  bottom: 5%;
+}
+.fidex-img-1 img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  bottom: 0;
+}
+.fidex-text {
+  top: 40px;
+  text-align: right;
+  right: 20px;
+  position: absolute;
+}
+.fidex-text h5 {
+  font-size: 18px;
+  color: rgb(61, 61, 61);
+  padding-bottom: 8px;
+}
+.fidex-text p {
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: rgb(114, 114, 114);
+}
+/* button------ */
+.header-btn-1 {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 23px;
+  border: 1px solid rgb(70, 163, 88);
+  border-radius: 6px;
+  background: rgb(70, 163, 88);
+  align-items: center;
+}
+.header-btn-1 svg {
+  padding-top: 2px;
+  padding-left: 5px;
+  color: white;
+}
+.header-btn-1 p {
+  color: white;
+}
+.header-btn-1:hover p {
+  color: rgba(70, 163, 88, 0.6);
+}
+.header-btn-1:hover svg {
+  color: rgba(70, 163, 88, 0.6);
+}
+.header-btn-1:hover {
+  background-color: rgb(236, 246, 238);
+  border-radius: 8px;
+  border: 1px solid rgb(70, 163, 88);
+  color: rgba(70, 163, 88, 0.6);
+  transition: 0.6s ease-in-out;
+}
+/* .angel-icon-li{ opacity: 0;} */
 /* =========================== */
 /* .img-2ta{
 
@@ -370,6 +647,11 @@ a .our-ul-li-1 h1 {
 .everything-kak-1 {
   color: rgb(61, 61, 61);
   align-items: center;
+}
+.img-w .img-w-1 img {
+  padding-left: 15px;
+  width: 120px;
+  height: 120px;
 }
 .border-kak-1 {
   margin-top: 25px;

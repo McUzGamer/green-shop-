@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .team {
+        background: #fff;
+        padding: 60px 0;
+      }
+
+      .section-title p {
+        margin-top: 0;
+      }
+
+      .team .member {
+        text-align: center;
+        margin-bottom: 20px;
+        background: #343a40;
+        border-radius: 15px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      #img1 {
+        margin-bottom: 15px;
+      }
+
+      .team .member .member-info {
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: 0.2s;
+      }
+
+      .team .member .member-info-content {
+        position: absolute;
+        left: 50px;
+        right: 0;
+        bottom: 0;
+        transition: bottom 0.4s;
+      }
+
+      .team .member .member-info-content .h4-1 {
+        color: rgb(255, 255, 255);
+      }
+
+      .team .member .member-info-content .span1 {
+        color: rgb(109, 238, 255);
+      }
+
+      .team .member .social {
+        position: absolute;
+        left: -50px;
+        top: 0;
+        bottom: 0;
+        width: 50px;
+        transition: left ease-in-out 0.3s;
+        background: rgba(78, 64, 57, 0.6);
+        text-align: center;
+      }
+
+      .team .member .social a {
+        transition: color 0.3s;
+        display: block;
+        color: #fff;
+        margin-top: 15px;
+      }
+
+      .team .member .social a:hover {
+        color: #eb5d1e;
+      }
+
+      .team .member .social i {
+        font-size: 18px;
+        margin: 0 2px;
+      }
+
+      .team .member:hover .member-info {
+        background: linear-gradient(
+          0deg,
+          rgba(78, 64, 57, 0.95) 0%,
+          rgba(78, 64, 57, 0.95) 15%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        opacity: 1;
+        transition: 0.4s;
+      }
+
+      .team .member:hover .member-info-content {
+        bottom: 30px;
+        transition: bottom 0.4s;
+      }
+
+      .team .member:hover .social {
+        left: 0;
+        transition: left ease-in-out 0.3s;
+      }
+
+      .team .member .member-info-content:hover .ahref h4 {
+        transition-duration: 0.5s;
+        color: #eb5d1e;
+      }
+      .team .member .member-info-content:hover .ahref span {
+        transition-duration: 0.5s;
+        margin-bottom: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      id="img1"
+      class="col-xl-12 col-lg-12 col-md-12"
+      data-aos="zoom-in"
+      data-aos-delay="400"
+    >
+      <div class="member">
+        <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+        <div class="member-info">
+          <div class="oq member-info-content">
+            <h4 class="h4-1">Dr. Bryce Medhurst</h4>
+            <span class="span1">Cataract Specialist</span>
+          </div>
+          <div class="social">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
